@@ -101,6 +101,25 @@ p{
 .project-description{
     padding: 120px 60px ;
 }
+.logo{
+    max-width: 90px;
+    border-radius: 100px;
+}
+
+
+nav li{
+    display: inline;
+    list-style: none;
+   margin-left: 15px;
+}
+
+
+nav a {
+    text-decoration: none;
+    
+    
+}
+
 @media(max-width: 900px){
     h1{
         font-size: 50px;
