@@ -219,6 +219,10 @@ footer .socialmedia a:hover{
     padding: 0;
     text-align: center;
     }
+    
+    .page-section h1 {
+    font-size: 35px;
+    line-height: 55px;}
 
     footer .contact-box{
         padding: 10px;
