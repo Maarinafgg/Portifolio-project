@@ -54,6 +54,25 @@ p{
     
 }
 
+.aboutme-section{
+    padding: 120px 20px;
+   
+}
+
+.aboutme-section h1{
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.aboutme-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+.aboutme-content{
+    margin: 30px;
+}
+
 .btn-branding{
     background: var(--branding-color);
     border-radius: 4px;
@@ -89,5 +108,10 @@ p{
     .project-description{
         padding: 0;
         text-align: center;
+    }
+
+    .aboutme-section {
+    padding: 0;
+    text-align: center;
     }
 }
