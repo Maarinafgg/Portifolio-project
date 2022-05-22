@@ -69,9 +69,16 @@ p{
     font-family: var(--default-font-family);
 }
 
+.page-section h3 {
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    margin: 20px 0 0;
+  }
+
 .page-content{
     margin: 30px;
 }
+
 
 .btn-branding{
     background: var(--branding-color);
