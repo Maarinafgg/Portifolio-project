@@ -40,7 +40,7 @@ p{
 .hero{
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 120px 20px;
+    padding: 85px 20px;
 }
 
 .hero p{
@@ -60,7 +60,7 @@ p{
 }
 
 .page-section{
-    padding: 120px 20px;
+    padding: 15px 20px;
    
 }
 

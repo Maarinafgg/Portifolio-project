@@ -24,18 +24,31 @@
     ></script>
 
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>About Front-end Developer - Marina F Gomes</title>
   </head>
   <body>
-    <a href="index.html">Home Page</a>
-
-    <a href="work.html">Work</a>
-    <a href="contact.html">Contact Me</a>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Home Page">
+          <img
+            src="images/Plant.jpg"
+            class="logo"
+            alt="Logo of a cute cactus"
+          />
+        </a>
+        <ul class="mt-4">
+          <li><a href="/" title="Home Page">Home</a></li>
+          <li class="active"><a href="about.html" title="About Marina">About</a></li>
+          <li><a href="work.html" title="Marina's Work">Work</a></li>
+          <li><a href="contact.html" title="Contact Marina">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="page-section container">
       <div class="row">
         <div class="col-md-6">
           <div class="page-content">
-            <h1 class="mb-5">Hi I am Marina Gomes</h1>
+            <h1 class="mb-5">Hi, I am Marina F Gomes</h1>
             <h2 class="mb-4">Front-end Developer based in Australia.</h2>
             <p class="mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -44,14 +57,14 @@
               minima fugiat explicabo eum dolore.
             </p>
 
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="work.html" class="btn btn-branding" title="Marina's Project">View my projects</a>
           </div>
         </div>
         <div class="col-md-6">
           <!-- in case I wanna hide the image when is a medium screen just use the class
     d-none d-md-block-->
 
-          <img src="images/minhafoto.jpg" class="img-fluid" alt="" />
+          <img src="images/minhafoto.jpg" class="img-fluid" alt="picture of Marina holding 2 crochet dolls" />
         </div>
       </div>
     </div>
