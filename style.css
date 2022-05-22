@@ -138,7 +138,6 @@ nav a:hover{
     color: var(--branding-color);
 }
 
-
 @media(max-width: 900px){
     h1{
         font-size: 50px;
@@ -151,13 +150,10 @@ nav a:hover{
         font-size: 15px;
     }
 
-        .logo {
-            max-width: 80px;
-            border-radius: 9em;
-           
-        }
-
-
+    .logo {
+        max-width: 80px;
+        border-radius: 9em;
+    }
 
     .hero{
         padding: 80px 20px;
